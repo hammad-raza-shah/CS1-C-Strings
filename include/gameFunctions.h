@@ -3,6 +3,7 @@
 //TODO: define, document, and implement this function
 initializeBlankString();
 
+
 //TODO: define, document, and implement this function
 printWithSpaces();
 
@@ -31,3 +32,4 @@ void clearScreen();
  * the two numbers.
  */
 void drawHorse(int guessedSoFar, int allowedGuesses);
+void initializeBlankString(int length, char *str);
