@@ -22,7 +22,13 @@ void initializeBlankString(int length, char *str) {
 }
 
 checkGuess() {}
-
+void printWithSpaces(const char *str) {
+    int length = strlen(str);
+    for (int i = 0; i < length; i++) {
+        printf("%c ", str[i]);
+    }
+    printf("\n");
+}
 void startGame(char word[25]) {
   int won = 0;  // Flag to see if the user has won yet
   int numBadGuesses = 0;  // Counter to end the game on a lose condition
