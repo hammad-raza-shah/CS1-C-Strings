@@ -11,10 +11,15 @@ initializeBlankString() {}
 
 printWithSpaces() {}
 #include "gameFunctions.h"
-
 printWithSpaces() {}
 
 revealGuessedLetter() {}
+void initializeBlankString(int length, char *str) {
+    for (int i = 0; i < length; i++) {
+        str[i] = '_';
+    }
+    str[length] = '\0'; 
+}
 
 checkGuess() {}
 
